@@ -11,11 +11,11 @@ def ts_to_datetime(ts) -> str:
 base_url = r"https://api.alpaca.markets/v2/"
 API_key_dict = {
     'live':
-        {"APCA-API-KEY-ID": "AKKOQLVDZJL6AQQ0ZAV4",
-        "APCA-API-SECRET-KEY": "7WfeyCwERwdFSbzFmuw4g07HFHiqMjfjKjP7aQrI"},
+        {"APCA-API-KEY-ID": "my key",
+        "APCA-API-SECRET-KEY": "my secret key"},
     'paper':
-        {"APCA-API-KEY-ID": "PK9WP0LHFMPPV58I26E3",
-        "APCA-API-SECRET-KEY": "evlfHZuT06c3IOfttMhS7hqLmlZDc0cvvxruuxfP"},
+        {"APCA-API-KEY-ID": "my key",
+        "APCA-API-SECRET-KEY": "my secret key"},
 }
 
 def get_symbol_position(symbol,trade_type='paper'):
