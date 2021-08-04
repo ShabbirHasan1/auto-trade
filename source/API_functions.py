@@ -66,7 +66,7 @@ def place_trade(symbol, fraction_of_stock,trade_type='paper',direction='buy'):
     headers = {
         **API_key_dict[trade_type],
         'Content-Type': 'application/json',
-        'Cookie': '__cfduid=d110fb04d25dd6f054f0e4887ee45d7831619350798'
+        'Cookie': '__'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
