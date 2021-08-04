@@ -75,7 +75,7 @@ def place_trade(symbol, fraction_of_stock,trade_type='paper',direction='buy'):
 
 
 def price_info(symbol):
-    key = "5nP9rH9X6bvpcBRLzvGLkbhGrPUKYoHJ"
+    key = ""
 
     # RESTClient can be used as a context manager to facilitate closing the underlying http session
     # https://requests.readthedocs.io/en/master/user/advanced/#session-objects
