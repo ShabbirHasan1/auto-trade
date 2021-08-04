@@ -125,8 +125,8 @@ def yahoo_finance_approach():
     querystring = {"q": "tesla", "region": "US"}
 
     headers = {
-        'x-rapidapi-key': "ec9a31bd14msh4b40c37fd848304p1b660djsn5954b0d4f278",
-        'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
+        'x-rapidapi-key': "",
+        'x-rapidapi-host': ""
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
@@ -135,7 +135,7 @@ def yahoo_finance_approach():
 
 def EOD_historical_data(symbol, today, pastDate):
     exchange_id = 'US'
-    api_token = '606db97db49ef5.96682876'
+    api_token = ''
     url = f'https://eodhistoricaldata.com/api/eod/{symbol}.{exchange_id}' \
           f'?from={pastDate}&to={today}&api_token={api_token}'
     response = requests.get(url)
