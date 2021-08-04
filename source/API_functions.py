@@ -105,7 +105,7 @@ def polygon_web_socket():
         print("this is my custom close handler")
 
     def main():
-        key = '5nP9rH9X6bvpcBRLzvGLkbhGrPUKYoHJ'
+        key = ''
         my_client = WebSocketClient(STOCKS_CLUSTER, key, my_custom_process_message)
         my_client.run_async()
 
